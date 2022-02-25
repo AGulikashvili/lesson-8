@@ -1,0 +1,55 @@
+@media (max-width: 796px)
+{
+	.container
+	{
+		justify-content: left;
+	}
+
+	.div1
+	{
+		width: 256px;
+		height: 256px;
+	
+		background-color: rgb(140, 0, 255);
+	
+		margin: 96px 0px;
+	}
+
+	.div2
+	{
+		width: 256px;
+		height: 256px;
+	
+		background-color: yellow;
+	
+		margin: 96px 0px;
+	}	
+}
+
+@media (max-width: 481px)
+{
+	.container
+	{
+		flex-direction: column;
+	}
+
+	.div1
+	{
+		width: 256px;
+		height: 256px;
+	
+		background-color: rgb(51, 255, 0);
+	
+		margin: 96px 0px;
+	}
+
+	.div2
+	{
+		width: 256px;
+		height: 256px;
+	
+		background-color: rgb(255, 0, 0);
+	
+		margin: 96px 0px;
+	}	
+}
